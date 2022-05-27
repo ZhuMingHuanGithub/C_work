@@ -7,9 +7,11 @@ int main(void)
     float f = 7.0f;
     float g = 8.0f;
 
-    printf("%d\n", n, m);
-    printf("%d %d %d\n", n);
-    printf("%d %d\n", f, g);
+    printf("%d\n", n, m);    /* 参数太多 */
+    printf("%d %d %d\n", n);  /* 参数太少 */
+    printf("%d %d\n", f, g);  /* 值的类型不匹配 */
+
+    getchar();
 
     return 0;
 }
