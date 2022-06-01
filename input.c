@@ -12,6 +12,7 @@ int main(void)
     printf("%d $%.2f %s\n", age, assets, pet);
 
     getchar();
+    getchar();
 
     return 0;
 }
