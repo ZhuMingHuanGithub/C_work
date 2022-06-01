@@ -7,7 +7,7 @@ int main(void)
     printf("Here is another way to print a \
 long string.\n");
     printf("Here is the newest way to print a "
-            "long string.\n");
+            "long string.\n");      /* ANSI C */
     getchar();
 
     return 0;    
