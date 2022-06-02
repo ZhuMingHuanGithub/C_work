@@ -15,6 +15,7 @@ int main(void)
     printf("Done!\n");
 
     getchar();
+    getchar();
 
     return 0;
 }
