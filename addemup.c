@@ -8,6 +8,6 @@ int main(void)
     sum = 0;
     while (count++ < 20)
     {
-        
+        sum = sum + count;
     }
 }
