@@ -9,5 +9,6 @@ int main(void)
     while (count++ < 20)
     {
         sum = sum + count;
+        printf("sum = %d\n", sum);
     }
 }
