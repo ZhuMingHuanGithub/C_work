@@ -13,4 +13,8 @@ int main(void)
     getchar();
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 72156fbe085eb417450fab444975b6160feb2ca9
