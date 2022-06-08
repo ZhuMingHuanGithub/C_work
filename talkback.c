@@ -15,7 +15,7 @@ int main()
     size = sizeof(name);
     letters = strlen(name);
     volume = weight / DENSITY;
-    printf("Well, %s, your volume is %2.2f cubic feet.\n", 
+    printf("Well, %s, your volume is %2.2f cubic feet.\n",
             name, volume);
     printf("Also, your first name has %d letters,\n",
             letters);
