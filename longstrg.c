@@ -10,5 +10,5 @@ long string.\n");
             "long string.\n");      /* ANSI C */
     getchar();
 
-    return 0;    
+    return 0;
 }
