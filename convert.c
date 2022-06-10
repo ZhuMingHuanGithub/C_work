@@ -6,16 +6,16 @@ int main(void)
     int i;
     float fl;
 
-    fl = i = ch = 'C';
-    printf("ch = %c, i = %d, fl = %2.2f\n", ch, i, fl);
-    ch = ch + 1;
-    i = fl + 2 * ch;
-    fl = 2.0 * ch + i;
-    printf("ch = %c, i = %d, fl = %2.2f\n", ch, i, fl);
-    ch = 1107;
-    printf("Now ch = %c\n", ch);
-    ch = 80.89;
-    printf("Now ch = %c\n", ch);
+    fl = i = ch = 'C';                                   /* 第 9 行  */
+    printf("ch = %c, i = %d, fl = %2.2f\n", ch, i, fl);  /* 第 10 行 */
+    ch = ch + 1;                                         /* 第 11 行 */
+    i = fl + 2 * ch;                                     /* 第 12 行 */
+    fl = 2.0 * ch + i;                                   /* 第 13 行 */
+    printf("ch = %c, i = %d, fl = %2.2f\n", ch, i, fl);  /* 第 14 行 */
+    ch = 1107;                                           /* 第 15 行 */
+    printf("Now ch = %c\n", ch);                         /* 第 16 行 */
+    ch = 80.89;                                          /* 第 17 行 */
+    printf("Now ch = %c\n", ch);                         /* 第 18 行 */
 
     getchar();
 
