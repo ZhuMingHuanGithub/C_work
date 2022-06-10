@@ -27,7 +27,7 @@ int main(void)
     distm = M_PER_K * distk;        // 把公里转换成英里
     rate = distm / time * S_PER_H;  // 英里/秒×秒/小时=英里/小时
     mtime = (double) time / distm;  // 时间/距离=跑 1 英里所用的时间
-    mmin = (int) mtime * S_PER_M;   // 求出分钟数
+    mmin = (int) mtime / S_PER_M;   // 求出分钟数
     msec = (int) mtime % S_PER_M;   // 求出剩余的秒数
 
     printf("You ran %1.2f km (%1.2f miles) in %d min, %d sec.\n",
