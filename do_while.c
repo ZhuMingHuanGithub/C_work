@@ -8,7 +8,7 @@ int main(void)
     do
     {
         printf("To enter the triskaidekaphobia therapy club,\n");
-        printf("Please enter the secret code number: ");
+        printf("please enter the secret code number: ");
         scanf("%d", &code_entered);
     } while (code_entered != secret_code);
 
