@@ -11,6 +11,7 @@ int main(void)
         printf("please enter the secret code number: ");
         scanf("%d", &code_entered);
     } while (code_entered != secret_code);
+    printf("Congratulations! You are cured!\n");
 
     getchar();
     getchar();
