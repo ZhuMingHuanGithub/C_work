@@ -7,7 +7,7 @@ int main(void)
     double response;
 
     printf("What is the value for pi?\n");
-    scanf("lf", &response);
+    scanf("%lf", &response);
     while (fabs(response - ANSWER) > 0.0001)
     {
         printf("Try again!\n");
