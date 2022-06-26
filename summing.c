@@ -13,7 +13,7 @@ int main(void)
     {
         sum = sum + num;
         printf("Please enter next integer (q to quit): ");
-        status = scanf("ld", &num);
+        status = scanf("%ld", &num);
     }
     printf("Those integers sum to %ld.\n", sum);
 
