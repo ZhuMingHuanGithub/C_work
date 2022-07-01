@@ -5,6 +5,7 @@ int main(void)
 {
     int ch;                /* 待打印字符 */
     int rows, cols;        /* 行数和列数 */
+    
     printf("Enter a character and two integers:\n");
     while ((ch = getchar()) != '\n')
     {
