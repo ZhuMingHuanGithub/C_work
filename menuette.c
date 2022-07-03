@@ -35,5 +35,14 @@ void count(void)
     int n, i;
 
     printf("Count how far? Enter an integer:\n");
-    
+    n = get_int;
+    for (i = 1; i <= n; i++)
+        printf("%d\n", i);
+    while (getchar() != '\n')
+        continue;    
+}
+
+char get_choice(void)
+{
+    int ch;
 }
