@@ -78,7 +78,7 @@ int get_int(void)
     while (scanf("%d", &input) != 1)
     {
         while ((ch = getchar()) != '\n')
-            putchar(ch);  // 处理错误输入
+            putchar(ch);  // 处理错误输出
         printf(" is not an integer.\nPlease enter an ");
         printf("integer value, such as 25, -178, or 3: ");
     }
