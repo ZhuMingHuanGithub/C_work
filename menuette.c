@@ -14,7 +14,7 @@ int main(void)
         {
             case 'a':   printf("Buy low, sell high.\n");
                         break;
-            case 'b':   putchar("\a");   /* ANSI */
+            case 'b':   putchar('\a');   /* ANSI */
                         break;
             case 'c':   count();
                         break;
